@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --dark: 19 27 38;
+    --light-gray: 245 245 245;
+    --gray: 191 191 191;
+    --blue: 57 129 230;
+    --red: 255 77 77;
+  }
+}
+
+.content {
+  @apply max-w-screen-2xl mx-auto px-5;
+}
+
+.debug {
+  border: 1px inset red;
+}
